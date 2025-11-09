@@ -5,7 +5,7 @@ import SendIcon from "@mui/icons-material/Send";
 import { useLocation } from "react-router-dom";
 import image from "../assets/image.png";
 
-const API_BASE_URL = "https://konusarakogrenchat.vercel.app//api/Chat";
+const API_BASE_URL = "https://chatapi-c72y.onrender.com/api/Chat";
 
 export default function ChatPage() {
   const location = useLocation();
